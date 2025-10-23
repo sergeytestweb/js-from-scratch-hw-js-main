@@ -20,6 +20,6 @@ const game = {
       console.log("Invalid resource");
       return;
     }
-    this.resources.resource += amount
+    this.resources[resource] += amount
   }
 }
